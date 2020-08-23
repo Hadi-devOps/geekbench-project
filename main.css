@@ -1,0 +1,179 @@
+#container{
+    height: aut0;
+    width: 100%;
+ padding: 0px 0px 5px 0px;
+    background: #00579a;
+}
+#header{
+    padding-top: 10px;
+    
+}
+#brand{
+    float: left;
+    padding-left: 120px;
+    font-weight: normal;
+    color: #B7CFE2;
+    text-transform: uppercase;
+}
+#brand a{
+    color: white;
+}
+#brand a:hover{
+    color: grey;
+}
+#menu{
+    float: right;
+    padding-right: 130px;
+    
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding-right: 5px;
+    
+    
+}
+
+#menu ul li a:last-child{
+    border-right: none;
+}
+#menu ul li a{
+    color: #B7CFE2;
+    border-right: 1px soldi white;
+    padding-right: 25px;
+   
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu ul li a:hover{
+    color: white;
+}
+
+#img{
+    padding: 35px 250px 0px 250px;
+    text-align: center;
+}
+
+#descriptions h1{
+    color: white;
+
+    text-align: center;
+
+}
+p{
+    padding: ;
+    font-size: 20px;
+    text-align: center;
+    color: #B7CFE2;
+}
+
+#container1{
+
+    background: #F3F5F7;
+    width: auto;
+    padding: 10px 0px ;
+
+}
+
+#para1 h1{
+    color: #00579a;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+#container2{
+    display: flexbox;
+    columns: 3;
+    background: #F3F5F7;
+    padding: 100px;
+    height: 400px;
+    width: auto;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+#box1{
+    float: left;
+    height: auto;
+    width: 300px;
+    border: 1px solid white;
+    padding: 20px;
+    background: white;
+    box-shadow: black;
+    border-radius: 20px;
+    border: 1px solid #00579a;
+}
+
+#box2{
+    float: left;
+    height: auto;
+    width: 300px;
+    border: 1px solid white;
+    padding: 20px;
+    background: white;
+    box-shadow: black;
+    border-radius: 20px;
+    border: 1px solid #00579a;
+}
+
+#box3{
+    float: right;
+    height: auto;
+    width: 300px;
+    border: 1px solid white;
+    padding: 20px;
+    background: white;
+    box-shadow: black;
+    border-radius: 20px;
+    border: 1px solid #00579a;
+}
+
+#box1 p{
+    color: black;
+    text-align: left;
+}
+
+#box2 p{
+color: black;
+    text-align: left;
+}
+
+#box3 p{
+    color: black;
+        text-align: left;
+    }
+
+#footer{
+    display: flexbox;
+    columns: 4;
+    background: #212121;
+    padding: 50px;
+ 
+    height: 200px;
+}
+
+img{
+    max-width: 175px;
+}
+
+
+.colum p{
+    text-align: left;
+    color:#B7CFE2; ;
+}
+h1{
+    color: white;
+}
+#developer{
+    background: linear-gradient(#212121, green);
+    padding: 20px;
+}
+#developer p{
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
